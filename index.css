@@ -1,0 +1,160 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+/*ul sobre mim*/
+ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 30px;
+}
+/*formação ul*/
+.formacao{
+    text-align: left;
+    font-size: large;
+    padding: 15px 8px;
+}
+/*personalizar os links*/
+a
+{
+    color: #e7bf7e;
+    text-decoration: none;
+    font-size: large
+}
+/*mexer na minha foto*/
+header img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #e7bf7e
+}
+.centro
+{
+    text-align: center;
+}
+h1
+{
+    color: #e7bf7e;
+}
+h3
+{
+    color: #e7bf7e;
+}
+/*alinhar o texto*/
+.texto
+{
+    padding: 0px 100px;
+    text-align: left;
+}
+/*imagem do roda pé e outros*/
+footer img
+{
+    width: 40px;
+    height: 40px;
+}
+footer
+{
+    justify-content: center;
+    display: flex;
+}
+.conteiner
+{
+    background-color: #7fa1e6;
+    height: 100%;
+    width: 100%;
+}
+footer a
+{
+    margin: 20px;
+    text-align: center;
+}
+footer p
+{
+    margin-top: 3px;
+}
+nav a:hover
+{
+    color: #7fa1e6;
+}
+.fundo
+{
+    background-image: linear-gradient(45deg, black, #46587c );
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+button
+{
+    background-color: #e7bf7e;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 10%;
+    color: black;
+}
+button:hover
+{
+    background-color: #7fa1e6;
+}
+.bodycont
+{
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, black, #46587c );
+    margin: 0px;
+}
+.conteinercont
+{
+    background-image: linear-gradient(45deg, #161618, #e7bf7e);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    margin-bottom: 5px;
+}
+input, textarea
+{
+    margin-bottom: 16px;
+    padding: 13px;
+    border-radius: 4px;
+    border: 1px solid #46587c;
+}
+.buttonback
+{
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    text-align: left;
+    border: none;
+    width: 60px;
+    height: 50px;
+}
+.buttonbackcont
+{
+    border: none;
+    text-align: left;
+    height: 98%;
+    color: black;
+}
